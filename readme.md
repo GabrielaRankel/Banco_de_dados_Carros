@@ -12,7 +12,7 @@ Excluir carro<br><br>
 
 Além disso, o sistema aplica regras de negócio para cálculo automático do preço de venda com base na categoria do veículo.<br><br>
 
-🎯 OBJETIVO<br><br>
+🎯 OBJETIVO<br>
 
 O objetivo do sistema é fornecer uma aplicação para prática de:<br><br>
 
@@ -21,7 +21,7 @@ Manipulação de banco de dados relacional<br>
 Criação de APIs REST<br>
 Aplicação de regras de negócio<br><br>
 
-👩‍💻 DESENVOLVEDORA<br><br>
+👩‍💻 DESENVOLVEDORA<br>
 
 Gabriela Rankel<br><br>
 
@@ -72,7 +72,7 @@ http://localhost:3000/carro/1
 <br><br>
 
 ❌ Excluir carro<br>
-DELETE /carro/:id<br><br>
+DELETE /carro/:id<br>
 
 Exemplo:<br>
 http://localhost:3000/carro/1
@@ -83,7 +83,7 @@ http://localhost:3000/carro/1
 Abra o arquivo:<br>
 frontend/index.html<br><br>
 
-Ou acesse diretamente:<br><br>
+Ou acesse diretamente:<br>
 
 Cadastro → frontend/html/cad_carro.html<br>
 Listagem → frontend/html/list_carro.html<br>
@@ -118,40 +118,25 @@ categoria<br>
 ano<br>
 preco<br><br>
 
-RN04: A categoria deve aceitar apenas: popular, sedan ou luxo.<br><br>
-
-RN05: O codCarro deve ser gerado automaticamente e ser único.<br><br>
-
-RN06: O sistema deve impedir cadastro com dados inválidos.<br><br>
-
-RN07: Consulta e exclusão devem ser feitas pelo ID.<br><br>
-
-🎨 REGRAS DE NEGÓCIO (INTERFACE)<br><br>
-
-RN08: O formulário deve estar centralizado na tela.<br><br>
-
-RN09: Deve existir um menu fixo no topo em todas as telas.<br><br>
-
-RN10: O fundo deve ser em azul claro.<br><br>
-
-RN11: A fonte deve ser Tahoma.<br><br>
-
-RN12: O texto deve ter tamanho 25% maior que o padrão.<br><br>
-
-RN13: Os títulos devem ter tamanho 40% maior que o padrão.<br><br>
-
-RN14: A cor dos textos deve ser branca.<br><br>
-
+RN04: A categoria deve aceitar apenas: popular, sedan ou luxo.<br>
+RN05: O codCarro deve ser gerado automaticamente e ser único.<br>
+RN06: O sistema deve impedir cadastro com dados inválidos.<br>
+RN07: Consulta e exclusão devem ser feitas pelo ID.<br>
+🎨 REGRAS DE NEGÓCIO (INTERFACE)<br>
+RN08: O formulário deve estar centralizado na tela.<br>
+RN09: Deve existir um menu fixo no topo em todas as telas.<br>
+RN10: O fundo deve ser em azul claro.<br>
+RN11: A fonte deve ser Tahoma.<br>
+RN12: O texto deve ter tamanho 25% maior que o padrão.<br>
+RN13: Os títulos devem ter tamanho 40% maior que o padrão.<br>
+RN14: A cor dos textos deve ser branca.<br>
 RN15: Os inputs devem ter:<br>
 Fundo preto<br>
 Texto verde<br>
 Fonte Tahoma<br>
-Tamanho 25% maior<br><br>
-
-RN16: Listagem e consulta devem ser exibidas em tabela.<br><br>
-
-RN17: As ações devem ocorrer por clique do mouse.<br><br>
-
+Tamanho 25% maior<br>
+RN16: Listagem e consulta devem ser exibidas em tabela.<br>
+RN17: As ações devem ocorrer por clique do mouse.<br>
 RN18: O sistema deve manter padronização visual em todas as telas.<br><br>
 
 ✅ REQUISITOS FUNCIONAIS<br><br>
@@ -189,29 +174,28 @@ Comunicação em JSON<br><br>
 
 1. Clone o repositório<br>
 git clone https://github.com/GabrielaRankel/Banco_de_dados_Carros.git
-<br><br>
+<br>
 
 2. Acesse o backend<br>
-cd backend<br><br>
+cd backend<br>
 
 3. Instale as dependências<br>
-npm install<br><br>
+npm install<br>
 
 4. Configure o banco<br>
 database: bd_crud<br>
 user: root<br>
-password: senai<br><br>
+password: senai<br>
 
 5. Execute o servidor<br>
-node index.js<br><br>
+node index.js<br>
 
 http://localhost:3000
-<br><br>
+<br>
 
 6. Execute o frontend<br>
 frontend/index.html<br><br>
 
-📎 REPOSITÓRIO<br><br>
-
+📎 REPOSITÓRIO<br>
 👉 https://github.com/GabrielaRankel/Banco_de_dados_Carros.git
-<br><br>
+<br>
