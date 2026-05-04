@@ -4,7 +4,7 @@
 }
 
 body{
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(to right, rgb(25, 126, 151), rgb(13, 155, 165), rgb(11, 153, 163));
     font-size: 1.2rem;
     font-family: 'Segoe UI';
     text-align: center;
@@ -31,4 +31,14 @@ a:hover{
 h1{
     color: white;
     font-weight: bold;
+}
+
+select {
+    background-color: black;
+    color: rgb(26, 131, 0);
+    border-radius: 16px;
+    padding: 24px;
+    width: fit-content;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
