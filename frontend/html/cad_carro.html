@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_cad.css">
+    <script src="../js/cad_carro.js" defer></script>
+    <title>Controle de Carros</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <a href="../index.html">Principal</a>
+            <a href="./cad_carro.html">Cadastrar Carro</a>
+            <a href="./list_carro.html">Listar Carros</a>
+            <a href="./apag_carro.html">Apagar Carros</a>
+            <a href="./consultar_carro.html">Consulatr Carros</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Cadastro de Carros</h1>
+        </article>
+        <br>
+        <form>
+            <label for="nome">Nome do Carro</label><br>
+            <input type="text" id="nome"><br><br>
+            <label for="marca">Marca do carro</label><br>
+            <input type="text" id="marca"><br><br>
+            <label for="categoria">Categoria do carro</label><br>
+            <select id="categoria"><br>
+                <option value="popular">Popular</option>
+                <option value="sedan">Sedan</option>
+                <option value="luxo">Luxo</option>
+            </select><br><br>
+            <label for="ano">Ano do Carro</label><br>
+            <input type="text" id="ano"><br><br>
+            <label for="preco">Preço de fabrica do Carro</label><br>
+            <input type="text" id="preco"><br><br>
+            <button id="btn_cadastrar">Cadastrar</button><br><br>
+        </form>
+        <div id="resposta"></div>
+    </main>
+</body>
+
+</html>
