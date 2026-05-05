@@ -7,32 +7,17 @@ btn_cadastrar.addEventListener('click', (e) => {
     const marca = document.getElementById('marca').value
     const ano = Number(document.getElementById('ano').value)
     const preco = Number(document.getElementById('preco').value)
-    const categoria = document.getElementById("categoria").value;
-    let preco_venda = 0;
+    const categoria = document.getElementById("categoria").value
 
-    if (!nome || !marca || !ano || !preco) {
-        resposta.innerHTML = 'Preencha todos os campos';
-        return;
-    }
-
-    if (categoria === "popular") {
-        preco_venda = preco * 1.15;
-    } else if (categoria === "sedan") {
-        preco_venda = preco * 1.20;
-    } else if (categoria === "luxo") {
-        preco_venda = preco * 1.25;
-    }
-
-    const valores = {
+     const valores = {
         nome: nome,
         marca: marca,
         categoria: categoria,
         ano: ano,
         preco: preco,
-        preco_venda: preco_venda,
     }
-    console.log(valores)
 
+    console.log(valores)
     fetch('http://localhost:3000/carro', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
